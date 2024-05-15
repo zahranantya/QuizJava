@@ -3,7 +3,6 @@ package tokobuku;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 
@@ -18,7 +17,6 @@ public class koneksi {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(URL, USER, PASS);
         } catch (ClassNotFoundException | SQLException e) {
-            e.printStackTrace();
         }
         return connection;
     }

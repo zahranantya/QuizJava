@@ -112,10 +112,10 @@ public class tokoFrame extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
 
-        inputPanel.setBackground(new java.awt.Color(153, 0, 51));
+        inputPanel.setBackground(new java.awt.Color(0, 204, 204));
 
         jLabel1.setFont(new java.awt.Font("Showcard Gothic", 0, 24)); // NOI18N
-        jLabel1.setText("TOKO BUKU IHSAN");
+        jLabel1.setText("TOKO BUKU ZAHRA");
 
         jLabel2.setText("Judul");
 
@@ -183,8 +183,8 @@ public class tokoFrame extends javax.swing.JFrame {
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 430, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, inputPanelLayout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(232, 232, 232))))
+                        .addComponent(jLabel1)
+                        .addGap(231, 231, 231))))
         );
         inputPanelLayout.setVerticalGroup(
             inputPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -215,7 +215,7 @@ public class tokoFrame extends javax.swing.JFrame {
                 .addContainerGap(52, Short.MAX_VALUE))
         );
 
-        searchPanel.setBackground(new java.awt.Color(0, 102, 102));
+        searchPanel.setBackground(new java.awt.Color(0, 153, 153));
 
         searchButton.setText("Cari Buku");
         searchButton.addActionListener(new java.awt.event.ActionListener() {
